@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ListView android:id="@+id/com_lv_vertical" android:paddingLeft="6dp" android:paddingRight="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent" android:dividerHeight="6dp" style="@style/NaviListStyle"/>
+    <com.baidu.navi.view.HorizontalListView android:id="@+id/com_lv_horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent" app:dividerWidth="6dp"/>
+</merge>

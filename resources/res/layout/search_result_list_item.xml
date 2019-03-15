@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@color/bnav_common_bg" android:layout_width="match_parent" android:layout_height="186dp">
+    <RelativeLayout android:id="@+id/btn_poi_parent" android:background="@color/bnav_common_bg" android:layout_width="match_parent" android:layout_height="70dp" android:layout_alignParentTop="true">
+        <TextView android:textSize="18sp" android:gravity="center" android:id="@+id/tv_num" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="11dp"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/btn_poi_gonavi" android:clickable="true" android:layout_width="80dp" android:layout_height="match_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:id="@+id/tv_poi_gonavi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/detail_navi" android:lines="1"/>
+            <TextView android:textSize="14sp" android:id="@+id/tv_poi_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:lines="1"/>
+        </LinearLayout>
+        <View android:id="@+id/line_poi_vertical_a" android:background="@drawable/bnav_common_line_vertical" android:layout_width="0.5dp" android:layout_height="32dp" android:layout_marginLeft="3dp" android:layout_toLeftOf="@+id/btn_poi_gonavi" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/ic_result" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:layout_marginRight="17dp" android:layout_marginBottom="14dp" android:layout_toLeftOf="@+id/line_poi_vertical_a" android:layout_alignParentBottom="true"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/poi_name_addr_layout" android:background="@color/carmode_titlebar_bg" android:paddingLeft="2dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/ic_result" android:layout_toRightOf="@+id/tv_num">
+            <TextView android:textSize="18sp" android:textStyle="bold" android:ellipsize="end" android:gravity="left" android:id="@+id/tv_poi_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+            <TextView android:textSize="14sp" android:ellipsize="end" android:gravity="left" android:id="@+id/tv_poi_addr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:singleLine="true"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/layout_child_bottom" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/btn_poi_parent">
+        <GridView android:gravity="center" android:id="@+id/grideview" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:horizontalSpacing="0dp" android:verticalSpacing="0dp" android:stretchMode="columnWidth" android:numColumns="3" android:scrollbarFadeDuration="0"/>
+    </LinearLayout>
+    <View android:id="@+id/ls_divider" android:background="@drawable/bnav_common_line_horizontal" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

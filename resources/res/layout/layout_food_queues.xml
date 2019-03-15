@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="6dp">
+        <TextView android:textColor="@color/cl_text_a4_content" android:text="@string/home_food_queuetype" style="@style/FoodQueuesTitle"/>
+        <TextView android:textColor="@color/cl_text_a4_content" android:text="@string/home_food_queuewaitnum" style="@style/FoodQueuesTitle"/>
+        <TextView android:textColor="@color/cl_text_a4_content" android:text="@string/home_food_queuewaittime" style="@style/FoodQueuesTitle"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ll_queues" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

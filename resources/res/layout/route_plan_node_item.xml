@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:background="@null" android:paddingLeft="10dp" android:paddingRight="10dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="@dimen/vertical_listview_height">
+    <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/rl_route_plan_node_item" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="@dimen/vertical_listview_height">
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/iv_input_delete" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/ic_input_delete" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/ll_input_drag" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <ImageView android:layout_gravity="center" android:id="@+id/iv_drag" android:duplicateParentState="false" android:layout_width="41dp" android:layout_height="39dp" android:scaleType="centerInside"/>
+        </LinearLayout>
+        <TextView android:textSize="16sp" android:textColor="#ff697377" android:textColorHint="#9f9f9f" android:gravity="center_vertical" android:id="@+id/tv_input" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:singleLine="true" android:layout_toLeftOf="@+id/ll_input_drag" android:layout_toRightOf="@+id/iv_input_delete" android:layout_centerVertical="true"/>
+        <ProgressBar android:id="@+id/progress_anti_geo" android:background="@drawable/common_loading_drop" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60dp" android:indeterminateDrawable="@drawable/common_loading" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/top_margin" android:layout_width="match_parent" android:layout_height="5dp"/>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/item_layout" android:background="@drawable/bnav_common_card_selector" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="43dp">
+        <TextView android:layout_gravity="center" android:id="@+id/item_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/car_drv_record_once_max_length" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/Text.mainTitle"/>
+        <com.baidu.navisdk.ui.widget.StatusButton android:id="@+id/item_switch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true"/>
+        <TextView android:textSize="18sp" android:textColor="#24a6ff" android:layout_gravity="center" android:id="@+id/item_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:text="5分钟" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

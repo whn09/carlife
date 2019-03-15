@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ll_header" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="156dp">
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <include android:id="@+id/vi_all_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" layout="@layout/view_cycle_indicator"/>
+            <TextView android:textSize="14sp" android:textColor="@color/cl_text_a2_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/totalMileage" android:layout_below="@+id/vi_all_distance" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <include android:id="@+id/vi_week_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" layout="@layout/view_cycle_indicator"/>
+            <TextView android:textSize="14sp" android:textColor="@color/cl_text_a2_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weeklyMileage" android:layout_below="@+id/vi_week_distance" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <include android:id="@+id/vi_single_longest_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" layout="@layout/view_cycle_indicator"/>
+            <TextView android:textSize="14sp" android:textColor="@color/cl_text_a2_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/maxNavTime" android:layout_below="@+id/vi_single_longest_time" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

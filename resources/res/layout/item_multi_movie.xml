@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="20dp">
+        <TextView android:textSize="@dimen/card_title_size" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/item_multimovie_title" android:layout_width="0dp" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/card_subtitle_size" android:textColor="@color/color_blue_text" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/item_multimovie_more" android:background="@drawable/common_item_bg" android:layout_width="100dp" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:singleLine="true"/>
+    </LinearLayout>
+    <HorizontalScrollView android:scrollbars="none" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="175dp" android:layout_marginTop="10dp" android:fillViewport="false">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/item_multimovie_container" android:layout_width="wrap_content" android:layout_height="match_parent"/>
+    </HorizontalScrollView>
+</LinearLayout>

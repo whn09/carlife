@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="100dp">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/card_default_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="12dp" android:layout_marginBottom="12dp">
+        <TextView android:textSize="@dimen/card_title_size" android:textColor="@color/white" android:id="@+id/tv_hint" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="18dp" android:singleLine="true"/>
+        <ListView android:id="@+id/lv_result" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:listSelector="@drawable/common_item_bg" android:drawSelectorOnTop="true" android:divider="#1affffff" android:dividerHeight="1dp"/>
+    </LinearLayout>
+</LinearLayout>

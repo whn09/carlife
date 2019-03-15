@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/brief_imageview" android:background="#ffffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop" android:minWidth="247dp" android:minHeight="157dp"/>
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@+id/info_layout" android:background="#66000000" android:layout_width="247dp" android:layout_height="45dp" android:layout_marginTop="10dp" android:layout_alignBottom="@+id/brief_imageview">
+        <TextView android:textSize="13sp" android:textColor="#ffffff" android:id="@+id/time_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="2013/11/25 23:25" android:layout_centerVertical="true"/>
+        <TextView android:textSize="18sp" android:textColor="#ffffff" android:id="@+id/length_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="15:45" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</RelativeLayout>

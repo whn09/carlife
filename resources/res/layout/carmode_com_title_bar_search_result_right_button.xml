@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="18sp" android:textColor="@color/cp_map_cont_g" android:gravity="center" android:id="@+id/tv_rightbutton_sort" android:background="@drawable/carmode_titlebar_btn_selector" android:paddingLeft="20dp" android:paddingRight="20dp" android:focusable="true" android:layout_width="0dp" android:layout_height="match_parent" android:minWidth="64dp" android:text="@string/carmode_searchresult_sort" android:maxLength="4" android:layout_weight="1"/>
+    <View android:background="@color/cp_map_line_a" android:layout_width="1px" android:layout_height="20dp"/>
+    <TextView android:textSize="18sp" android:textColor="@color/cp_map_cont_g" android:gravity="center" android:id="@+id/tv_rightbutton_map" android:background="@drawable/carmode_titlebar_btn_selector" android:paddingLeft="20dp" android:paddingRight="20dp" android:focusable="true" android:layout_width="0dp" android:layout_height="match_parent" android:minWidth="64dp" android:text="@string/map" android:maxLength="4" android:layout_weight="1"/>
+</LinearLayout>

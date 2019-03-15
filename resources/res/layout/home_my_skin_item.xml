@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.baidu.carlife.view.MultiImageView android:id="@+id/image_iv" android:background="@drawable/home_bg_skin_image_selector" android:padding="1dp" android:layout_width="240dp" android:layout_height="135dp" android:scaleType="fitXY" android:layout_centerHorizontal="true"/>
+    <RelativeLayout android:id="@+id/loading_layer" android:background="#b2000000" android:layout_width="240dp" android:layout_height="135dp" android:layout_centerHorizontal="true">
+        <com.baidu.carlife.view.CircleProgressBarView android:id="@+id/progress_view" android:layout_width="66dp" android:layout_height="66dp" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <com.baidu.carlife.view.TriangleStateView android:id="@+id/state_bg_iv" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:layout_alignRight="@+id/image_iv" android:layout_alignBottom="@+id/image_iv"/>
+    <ImageView android:id="@+id/state_iv" android:layout_width="30dp" android:layout_height="30dp" android:layout_marginRight="1dp" android:layout_marginBottom="1dp" android:layout_alignRight="@+id/image_iv" android:layout_alignBottom="@+id/image_iv"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@+id/image_iv" android:layout_centerHorizontal="true">
+        <TextView android:textSize="18sp" android:textColor="@color/cl_text_a5_content" android:id="@+id/name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <TextView android:textSize="14sp" android:textColor="@color/cl_text_a2_content" android:id="@+id/size_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_toRightOf="@+id/name_tv" android:layout_alignBottom="@+id/name_tv"/>
+    </RelativeLayout>
+</merge>

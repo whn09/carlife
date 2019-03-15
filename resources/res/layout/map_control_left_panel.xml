@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/map_control_left_panel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="center" android:id="@+id/location_layout" android:background="@drawable/carlife_map_its_bg_selector" android:focusable="true" android:layout_width="56dp" android:layout_height="56dp">
+        <ImageView android:id="@+id/location_btn" android:src="@drawable/map_ic_home_backparking" style="@style/MapButton"/>
+        <ProgressBar android:id="@+id/locProgress" android:background="@drawable/ic_locate_loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/LocationProgressStyle"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/map_control_left_panel_watermark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:src="@drawable/map_home_watermark" android:layout_toRightOf="@+id/location_layout" android:layout_alignBottom="@+id/location_layout"/>
+    <RelativeLayout android:id="@+id/map_scale_level_layout" android:paddingBottom="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/location_layout" android:layout_alignBottom="@+id/location_layout">
+        <TextView android:textColor="#333333" android:id="@+id/scale_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100米" android:layout_centerHorizontal="true"/>
+        <TextView android:id="@+id/scale_indicator" android:background="@drawable/bnav_common_ic_scale_indicator" android:paddingTop="0dp" android:layout_width="wrap_content" android:layout_height="7dp" android:layout_below="@+id/scale_title" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="10sp" android:textColor="#0000bb" android:id="@+id/app_name" android:background="@drawable/bnav_map_watermark" android:paddingTop="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/scale_indicator" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/common_item_bg_focus" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="70dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <ImageView android:id="@+id/iv_thumbnail" android:layout_width="70dp" android:layout_height="50dp" android:src="@mipmap/mydvr_video" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/iv_camera_type" android:layout_width="31dp" android:layout_height="26dp" android:src="@mipmap/mydvr_dvr_front" android:layout_alignTop="@+id/iv_thumbnail" android:layout_alignParentLeft="true"/>
+        <TextView android:textSize="20sp" android:textColor="@color/mydvr_contact_item_text" android:id="@+id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:text="0000/00/00" android:layout_toRightOf="@+id/iv_thumbnail" android:layout_centerVertical="true"/>
+        <TextView android:textSize="20sp" android:textColor="@color/mydvr_contact_item_text" android:id="@+id/tv_hour" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="00:00:00" android:layout_toRightOf="@+id/tv_date" android:layout_centerVertical="true"/>
+        <TextView android:textSize="20sp" android:textColor="@color/gray_text" android:id="@+id/tv_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:text="00.0MB" android:layout_toRightOf="@+id/tv_hour" android:layout_centerVertical="true"/>
+        <Button android:id="@+id/btn_share" android:background="@mipmap/mydvr_item_share" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginRight="20dp" android:layout_toLeftOf="@+id/btn_del" android:layout_centerVertical="true"/>
+        <Button android:id="@+id/btn_del" android:background="@mipmap/mydvr_item_delete" android:layout_width="36dp" android:layout_height="36dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</RelativeLayout>

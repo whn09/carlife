@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="50dp">
+        <ImageView android:id="@+id/catalog_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name"/>
+        <TextView android:textSize="18sp" android:textColor="#313233" android:ellipsize="end" android:id="@+id/catalog_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:singleLine="true" android:layout_toRightOf="@+id/catalog_iv" android:layout_centerVertical="true"/>
+        <View android:id="@+id/list_group_item_divider" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="17dp" android:layout_marginRight="17dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

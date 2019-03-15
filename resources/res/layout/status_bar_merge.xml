@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/download_notification" android:background="@color/app_background" android:paddingBottom="10dp" android:focusable="true" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/download_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:src="@drawable/ic_launcher" android:adjustViewBounds="true" android:maxWidth="28dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <TextView android:textSize="13.3sp" android:textColor="#3b3b3b" android:ellipsize="end" android:id="@+id/title" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:singleLine="true" android:layout_toRightOf="@+id/download_icon" android:layout_centerVertical="true"/>
+</RelativeLayout>

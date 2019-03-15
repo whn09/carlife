@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="45dp" android:minHeight="45dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="45dp" android:baselineAligned="false" android:minHeight="45dp">
+        <Button android:textSize="16sp" android:textColor="#49526f" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/catalog_child_tv1" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="3"/>
+        <ImageView android:id="@+id/catalog_divider_vertical1" android:layout_width="1dp" android:layout_height="20dp" android:scaleType="fitXY"/>
+        <Button android:textSize="16sp" android:textColor="#49526f" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/catalog_child_tv2" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="3"/>
+        <ImageView android:id="@+id/catalog_divider_vertical2" android:layout_width="1dp" android:layout_height="20dp" android:scaleType="fitXY"/>
+        <Button android:textSize="16sp" android:textColor="#49526f" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/catalog_child_tv3" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:singleLine="true" android:layout_weight="3"/>
+    </LinearLayout>
+    <View android:id="@+id/list_item_divider" android:background="@drawable/divide_list_night" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="17dp" android:layout_marginRight="17dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

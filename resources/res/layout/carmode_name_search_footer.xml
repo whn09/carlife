@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="16sp" android:textColor="@color/cl_text_a3_content" android:gravity="center" android:id="@+id/carmode_name_search_footer_tv" android:layout_width="match_parent" android:layout_height="80dp" android:text="@string/route_plan_clear_history" android:singleLine="true"/>

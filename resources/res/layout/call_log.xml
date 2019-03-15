@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/ll_call_log" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/lv_call_log" android:paddingLeft="@dimen/frag_tele_list_header_leftmargin" android:paddingRight="80dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/cl_line_a1_item" android:dividerHeight="@dimen/common_item_line"/>
+</LinearLayout>

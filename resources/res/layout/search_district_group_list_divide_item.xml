@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/info_relativelayout" android:layout_width="match_parent" android:layout_height="30dp">
+        <TextView android:textSize="14sp" android:textColor="@color/bnav_common_text_color_title_night" android:id="@+id/tv_search_district_head_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/search_district_all_district" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <View android:id="@+id/list_item_divider" android:background="@drawable/bnav_common_list_divider_expandable" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

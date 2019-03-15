@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@drawable/com_common_bg_card_normal" android:paddingLeft="19dp" android:paddingTop="12.5dp" android:paddingRight="19dp" android:paddingBottom="12.5dp" android:layout_width="287dp" android:layout_height="wrap_content">
+    <TextView android:textSize="21sp" android:textStyle="bold" android:textColor="@color/common_black" android:gravity="center" android:id="@+id/title_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4.5dp" android:layout_marginBottom="16dp"/>
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="0dp" android:minWidth="112dp" android:layout_weight="1"/>
+    <LinearLayout android:id="@+id/bottom_bar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/left_div" android:visibility="gone" android:layout_width="0dp" android:layout_height="42dp" android:layout_weight="1"/>
+        <TextView android:textSize="18sp" android:textColor="#3f484b" android:gravity="center" android:id="@+id/first_btn" android:background="@drawable/com_common_btn_white_selector" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="42dp" android:maxWidth="100dp" android:minWidth="100dp" android:text="@string/positive" android:layout_weight="2"/>
+        <TextView android:textSize="18sp" android:textColor="#3f484b" android:gravity="center" android:id="@+id/second_btn" android:background="@drawable/com_common_btn_white_selector" android:focusable="true" android:clickable="true" android:layout_width="0dp" android:layout_height="42dp" android:layout_marginLeft="13.5dp" android:maxWidth="100dp" android:minWidth="100dp" android:text="@string/negative" android:layout_weight="2"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/right_div" android:visibility="gone" android:layout_width="0dp" android:layout_height="42dp" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/route_custom_item" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vertical_listview_margin_right">
+        <RelativeLayout android:gravity="center_vertical" android:id="@+id/route_custom_info_time_above" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="15dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/select_layout" android:paddingLeft="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <CheckBox android:enabled="false" android:id="@+id/select_btn" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/nsdk_drawable_common_check_box_selector"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/route_custom_name_dis_time_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/select_layout" android:layout_alignParentLeft="true">
+                <TextView android:textSize="17sp" android:ellipsize="end" android:id="@+id/route_custom_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="接孩子" android:singleLine="true"/>
+                <TextView android:textSize="14sp" android:ellipsize="end" android:id="@+id/route_custom_time_and_distance_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="14.5公里  30分钟" android:singleLine="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <com.baidu.navi.view.QuickNaviRoadCondLayout android:id="@+id/road_cond_layout" android:layout_width="match_parent" android:layout_height="5dp" android:layout_marginLeft="20dp" android:layout_marginTop="@dimen/vertical_listview_margin_right" android:layout_marginRight="15dp"/>
+        <ImageView android:id="@+id/divider_hor" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/vertical_listview_margin_left" android:layout_marginTop="@dimen/vertical_listview_margin_right" android:layout_marginRight="@dimen/vertical_listview_margin_left"/>
+    </LinearLayout>
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/route_custom_switch_layout" android:paddingLeft="20dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginTop="5dp" android:layout_marginBottom="5dp">
+        <com.baidu.navisdk.ui.widget.StatusButton android:gravity="center" android:id="@+id/push_switch_btn" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <RelativeLayout android:orientation="vertical" android:id="@+id/push_time_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/push_switch_btn">
+            <TextView android:textSize="14sp" android:id="@+id/route_custom_push_time_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="8:41"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/week_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/route_custom_push_time_tv">
+                <TextView android:id="@+id/repeat_sun" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/route_custom_repeat_week_sun" android:layout_weight="1"/>
+                <TextView android:id="@+id/repeat_mon" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/route_custom_repeat_week_mon" android:layout_weight="1"/>
+                <TextView android:id="@+id/repeat_tue" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/route_custom_repeat_week_Tue" android:layout_weight="1"/>
+                <TextView android:id="@+id/repeat_wed" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/route_custom_repeat_week_wed" android:layout_weight="1"/>
+                <TextView android:id="@+id/repeat_thu" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/route_custom_repeat_week_thu" android:layout_weight="1"/>
+                <TextView android:id="@+id/repeat_fri" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/route_custom_repeat_week_fri" android:layout_weight="1"/>
+                <TextView android:id="@+id/repeat_sat" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/route_custom_repeat_week_sat" android:layout_weight="1"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

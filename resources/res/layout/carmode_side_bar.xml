@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/layout_carmode_bar" android:background="#1d2026" android:layout_width="80dp" android:layout_height="match_parent">
+    <ImageView android:id="@+id/img_carmode_bar_back" android:background="@drawable/bnav_carmode_common_bg_pressed_mask_selector" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/icon_back_small" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <FrameLayout android:id="@+id/img_carmode_bar_middle" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/img_carmode_bar_voice" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/btn_bear_voice"/>
+        <ImageView android:id="@+id/img_carmode_bar_circle" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/btn_bear_loading"/>
+        <ImageView android:id="@+id/img_carmode_bar_bear" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/bnav_carmode_bar_bear_selector"/>
+    </FrameLayout>
+    <ImageView android:id="@+id/img_carmode_bar_home" android:background="@drawable/bnav_carmode_common_bg_pressed_mask_selector" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/icon_expand_small" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <View android:background="@color/carmode_line" android:layout_width="1dp" android:layout_height="match_parent" android:layout_alignParentRight="true" android:contentDescription="@null"/>
+</RelativeLayout>

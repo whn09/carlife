@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/radio_default_cover_shadow" android:paddingLeft="3dp" android:paddingTop="2dp" android:paddingRight="3dp" android:paddingBottom="4dp" android:layout_width="@dimen/radio_channel_item_width" android:layout_height="@dimen/radio_channel_item_height">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/radio_channel_item_img" android:background="@drawable/radio_default_cover" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+    <TextView android:textSize="12sp" android:textColor="#ffffffff" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/radio_channel_item_txt" android:background="@drawable/radio_channel_item_txt_bg" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="50dp" android:text="新闻" android:singleLine="true" android:layout_alignParentBottom="true"/>
+    <ImageView android:id="@+id/radio_channel_item_flag_play" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginLeft="3dp" android:layout_marginBottom="6dp" android:layout_alignParentBottom="true"/>
+    <View android:id="@+id/radio_channel_item_cover" android:background="#ff000000" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+</RelativeLayout>

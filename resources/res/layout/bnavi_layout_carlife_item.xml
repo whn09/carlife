@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:layout_width="119dp" android:layout_height="119dp">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/cr_grid_item" android:background="@drawable/bg_carlife_grid_item_selector" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/bnav_cl_img" android:layout_width="50dp" android:layout_height="50dp" android:src="@drawable/cr_camera" android:scaleType="fitCenter"/>
+        <TextView android:textSize="17sp" android:textColor="#000" android:id="@+id/bnav_cl_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="testtest"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/bnav_cl_status_img" android:visibility="gone" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/cr_download" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+</RelativeLayout>

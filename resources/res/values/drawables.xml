@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="bnav_carmode_right_menu_bg">#e516191e</drawable>
+    <drawable name="bnav_carmode_right_menu_bg_pressed">#4b444a55</drawable>
+    <drawable name="bnav_common_bg_mask_night">#23262d</drawable>
+    <drawable name="bnav_common_bg_pressed_mask">#dfdfdf</drawable>
+    <drawable name="bnav_common_bg_pressed_mask_night">#161a2a</drawable>
+    <drawable name="bnav_dt_start_navi_normal">#3477eb</drawable>
+    <drawable name="bnav_dt_start_navi_press">#2e6bd3</drawable>
+    <drawable name="carmode_blue_bg">#36bfff</drawable>
+    <drawable name="carmode_blue_bg_pressed">#009be6</drawable>
+    <drawable name="home_notify_news_layout_background">#000000</drawable>
+    <drawable name="news_list_item_background_carmode">#23262d</drawable>
+    <drawable name="nsdk_route_preferencd_item_normal">#ffffff</drawable>
+    <drawable name="nsdk_route_preferencd_item_press">#dfdfdf</drawable>
+    <drawable name="poi_dragon">#f8f8f8</drawable>
+    <drawable name="poi_dragon_night">#2c334c</drawable>
+    <drawable name="screen_background_light">#ffffffff</drawable>
+    <drawable name="search_result_text_focused">#0070bf</drawable>
+    <drawable name="search_result_text_unfocused">#008df2</drawable>
+    <drawable name="transparent">#00000000</drawable>
+</resources>

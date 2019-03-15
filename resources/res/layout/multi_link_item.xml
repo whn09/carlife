@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/common_item_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/card_title_size" android:textColor="@color/white" android:gravity="center_vertical" android:id="@+id/multi_link_text" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="64dp" android:singleLine="true" android:drawableLeft="@drawable/shape_white_square" android:drawablePadding="10dp"/>
+</RelativeLayout>

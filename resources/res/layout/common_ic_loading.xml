@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/common_loading_layout" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/com_ic_loading_bg" android:layout_centerVertical="true"/>
+    <ProgressBar android:id="@+id/common_ic_loading_progress" android:layout_width="28dp" android:layout_height="28dp" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/common_progress_bg" android:indeterminateDuration="600" android:indeterminateBehavior="repeat" android:layout_centerVertical="true"/>
+    <TextView android:textSize="16sp" android:textColor="@color/cl_text_c_dialog" android:id="@+id/tv_process_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/progress_loading" android:layout_toRightOf="@+id/common_ic_loading_progress" android:layout_centerVertical="true"/>
+</RelativeLayout>

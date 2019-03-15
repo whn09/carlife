@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:textSize="@dimen/alert_dialog_message_textsize" android:textColor="#666666" android:layout_gravity="left|center_vertical|center_horizontal|center" android:background="@drawable/alertdialog_list_item_bg_selector" android:paddingLeft="20dp" android:paddingTop="15dp" android:paddingRight="20dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="match_parent"/>

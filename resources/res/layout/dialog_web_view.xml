@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/cl_bg_c_main" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/temp" layout="@layout/carlife_common_title_bar_new"/>
+    <com.baidu.carlife.view.CommonTipView android:id="@+id/common_tip_view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/temp"/>
+    <WebView android:id="@+id/web_view" android:fadingEdge="none" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/temp"/>
+</RelativeLayout>

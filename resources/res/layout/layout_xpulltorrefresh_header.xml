@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/header_content" android:layout_width="match_parent" android:layout_height="60dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/header_text_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:gravity="center" android:id="@+id/header_hint_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/header_hint_refresh_normal"/>
+            <LinearLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+                <TextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/header_hint_refresh_time"/>
+                <TextView android:id="@+id/header_hint_time" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@+id/header_arrow" android:layout_width="25dp" android:layout_height="25dp" android:layout_marginLeft="70dp" android:src="@drawable/bnav_common_ic_refresh_down" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null"/>
+    </RelativeLayout>
+</LinearLayout>

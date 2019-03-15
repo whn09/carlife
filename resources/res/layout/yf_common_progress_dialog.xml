@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#b2000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@drawable/com_dialog_bg" android:layout_width="288dp" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="20sp" android:textColor="@color/cl_text_b_dialog" android:gravity="center" android:id="@+id/dialog_title" android:paddingLeft="24dp" android:paddingTop="16dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="-8dp" android:text=""/>
+        <RelativeLayout android:id="@+id/dialog_content" android:padding="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/dialog_title">
+            <ProgressBar android:id="@+id/progress_bar" android:background="@drawable/shape_progressbar_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:max="100" android:progress="50" style="@style/StyleProgressBarMini"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

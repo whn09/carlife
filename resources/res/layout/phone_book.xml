@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="horizontal" android:id="@+id/ll_contact_book" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.baidu.carlife.view.pinnedheaderlistview.PinnedHeaderListView android:id="@+id/lv_phone_book" android:paddingLeft="@dimen/frag_tele_list_header_leftmargin" android:paddingRight="@dimen/frag_tele_list_header_rightmargin" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:divider="@color/cl_line_a1_item" android:dividerHeight="@dimen/common_item_line" android:layout_weight="1"/>
+    <com.baidu.carlife.view.pinnedheaderlistview.BladeView android:id="@+id/bv_letter_list" android:layout_width="30dp" android:layout_height="match_parent"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="@color/carmode_common_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.baidu.navi.view.CommonTitleBar android:id="@+id/his_title_bar" android:layout_width="match_parent" android:layout_height="wrap_content" app:middleContentText="@string/history"/>
+    <FrameLayout android:orientation="horizontal" android:id="@+id/history_dest_list_layout" android:background="@color/carmode_common_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.baidu.navi.view.pulltorefresh.PullToRefreshListView android:id="@+id/history_dest_list" android:background="@null" android:focusable="true" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/carmode_list_bg_selector" android:divider="@null" android:headerDividersEnabled="false" android:footerDividersEnabled="false" app:ptrHeaderPadding="0dp" app:ptrMode="0"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="12sp" android:textColor="@color/cl_text_a2" android:gravity="center_vertical" android:id="@+id/list_item_blacklist_section" android:background="@color/cl_bg_activity" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="24dp" android:text="Section"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="@dimen/list_item_height">
+        <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/list_item_blacklist_icon" android:layout_width="@dimen/list_item_icon_width" android:layout_height="@dimen/list_item_icon_width" android:scaleType="fitXY" app:placeholderImage="@mipmap/list_icon_user"/>
+        <TextView android:textSize="@dimen/text_size_main" android:textColor="@color/cl_text_a5" android:id="@+id/list_item_blacklist_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:text="name" android:singleLine="true" android:layout_weight="1"/>
+        <CheckBox android:id="@+id/list_item_blacklist_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/checkbox_selector"/>
+    </LinearLayout>
+</LinearLayout>

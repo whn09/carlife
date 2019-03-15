@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_0" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_1" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_2" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_3" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_4" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_5" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_6" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_7" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_8" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_9" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_10" />
+    <item android:duration="50" android:drawable="@drawable/baidu_mic_asr_11" />
+</animation-list>

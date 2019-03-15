@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="80dp">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/ll_img" android:background="@drawable/carmode_view_bg_selector" android:clickable="true" android:layout_width="80dp" android:layout_height="match_parent" android:layout_alignParentRight="true">
+        <ImageView android:gravity="center" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/iv_list_arrow"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <TextView android:textSize="20sp" android:textColor="@color/cl_text_a5_content" android:ellipsize="end" android:gravity="left" android:id="@+id/tv_addr_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="深圳百度国际大厦" android:singleLine="true"/>
+        <TextView android:textSize="14sp" android:textColor="@color/cl_text_a2_content" android:ellipsize="end" android:gravity="left" android:id="@+id/tv_poi_addr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="广东省深圳市南山区学府路东" android:singleLine="true"/>
+    </LinearLayout>
+    <View android:id="@+id/line_poi_horizontal" android:background="@color/cl_line_a1_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

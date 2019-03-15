@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:id="@+id/rp_node_clear_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:minHeight="60dp">
+    <TextView android:textSize="20sp" android:textColor="@color/carmode_common_main_text" android:gravity="center" android:id="@+id/btn_clear_history_desc" android:background="@drawable/carmode_list_bg_selector" android:layout_width="match_parent" android:layout_height="56dp" android:layout_margin="2dp" android:text="@string/route_plan_clear_history" android:layout_centerInParent="true"/>
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:background="#f7f6f6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="280dp">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="21sp" android:textStyle="bold" android:textColor="#333333" android:gravity="center" android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:text="电子狗说明"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="18sp" android:textColor="#3399ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1." android:layout_alignParentLeft="true"/>
+            <TextView android:textSize="18sp" android:textColor="#666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="行车过程中自动检测电子眼"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/cruise_newerguid_image_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:src="@drawable/nsdk_drawable_cruise_newerguid_1"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="18sp" android:textColor="#3399ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2." android:layout_alignParentLeft="true"/>
+            <TextView android:textSize="18sp" android:textColor="#666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="检测到前方电子眼时自动播报"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/cruise_newerguid_image_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:src="@drawable/nsdk_drawable_cruise_newerguid_2"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="18sp" android:textColor="#3399ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3." android:layout_alignParentLeft="true"/>
+            <TextView android:textSize="18sp" android:textColor="#666666" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="下载离线数据即可0流量使用"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/cruise_newerguid_image_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:src="@drawable/nsdk_drawable_cruise_newerguid_3"/>
+    </LinearLayout>
+    <Button android:textSize="21sp" android:textColor="#176de5" android:gravity="center" android:id="@+id/cruise_newerguid_btn" android:background="@drawable/nsdk_drawable_common_btn_white_selector" android:paddingTop="10dp" android:paddingBottom="10dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="100dp" android:text="@string/nsdk_string_dl_newerguide_dlg_btn"/>
+</LinearLayout>

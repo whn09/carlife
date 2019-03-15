@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="18sp" android:textColor="@color/cl_text_a5_content" android:gravity="center_vertical" android:id="@+id/map_control_panel_list_item_tv" android:paddingLeft="@dimen/dialog_left_list_padding" android:layout_width="match_parent" android:layout_height="60dp" android:text="item"/>
+    <View android:background="@color/cl_line_a1_item" android:layout_width="match_parent" android:layout_height="2px"/>
+</LinearLayout>

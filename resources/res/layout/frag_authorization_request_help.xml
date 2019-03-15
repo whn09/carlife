@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/title_bar" layout="@layout/carlife_common_title_bar_new"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/title_bar">
+        <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="18sp" android:textColor="@color/cl_text_a5_content" android:id="@+id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="72dp" android:layout_marginTop="12dp" android:layout_marginRight="16dp" android:layout_marginBottom="24dp" android:text="@string/auth_msg"/>
+            <ImageView android:id="@+id/tips_img" android:layout_width="168dp" android:layout_height="128dp" android:layout_marginLeft="106dp" android:layout_marginRight="56dp" android:src="@drawable/home_ic_my_setting_help_aoa" android:layout_below="@+id/tips"/>
+            <ImageView android:id="@+id/tips_num" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="122dp" android:layout_marginTop="12dp" android:src="@drawable/home_ic_my_setting_help_number01" android:layout_below="@+id/tips_img"/>
+            <TextView android:textSize="14sp" android:textColor="@color/cl_text_a5_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="12dp" android:text="@string/auth_click" android:layout_toRightOf="@+id/tips_num" android:layout_below="@+id/tips_img"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProgressBar xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/round_progress" android:layout_width="@dimen/tips_progress_default_size" android:layout_height="@dimen/tips_progress_default_size" style="?android:attr/progressBarStyleLarge"/>

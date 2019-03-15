@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:background="@drawable/new_msg_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.facebook.drawee.view.SimpleDraweeView android:id="@+id/new_msg_icon" android:layout_width="86dp" android:layout_height="86dp" android:layout_marginTop="16dp" android:scaleType="fitXY" app:placeholderImage="@mipmap/new_msg_icon_user" app:roundedCornerRadius="8dp"/>
+    <TextView android:textSize="26sp" android:textColor="@color/cl_text_main" android:gravity="center" android:id="@+id/new_msg_name" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="name" android:singleLine="true"/>
+    <TextView android:textSize="20sp" android:textColor="#ff9be8e9" android:gravity="center" android:id="@+id/new_msg_content" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="62dp" android:text="content" android:maxLines="2"/>
+    <View android:background="@color/cl_divider" android:layout_width="match_parent" android:layout_height="@dimen/divider_height"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="20sp" android:textColor="#ff4be8a1" android:gravity="center" android:id="@+id/new_msg_btn_ok" android:background="@drawable/dialog_left_btn_bg_selector" android:layout_width="match_parent" android:layout_height="47dp" android:text="播报" android:layout_weight="1"/>
+        <View android:background="@color/cl_divider" android:layout_width="@dimen/divider_height" android:layout_height="match_parent"/>
+        <Button android:textSize="20sp" android:textColor="#ff4be8a1" android:gravity="center" android:id="@+id/new_msg_btn_close" android:background="@drawable/dialog_right_btn_bg_selector" android:layout_width="match_parent" android:layout_height="47dp" android:text="关闭" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/home_bg_item_selector" android:layout_width="@dimen/home_icon_big_width" android:layout_height="@dimen/home_icon_big_height">
+    <com.baidu.carlife.view.PressTextView android:textSize="16sp" android:textColor="@color/cl_text_a5_title" android:gravity="center" android:id="@+id/item_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawablePadding="20dp" android:layout_centerInParent="true"/>
+</RelativeLayout>
